@@ -13,6 +13,10 @@ img, embed, object, video {
 h1, h2 {
   display: inline;
 }
+/* Header */
+.header {
+  padding: 0%;	
+}
 
 /* Logo */
 h2 {
@@ -21,7 +25,6 @@ h2 {
   width: 10%;
   top: 10%;
   left: 15%;
-  padding: 0%;
   margin-bottom: 0%;
   text-align: left;
 }
@@ -32,7 +35,6 @@ h1 {
   position: relative;
   left: 18%;
   font-size: 5vw;
-  padding: 0%;
   margin-top: 5%;
   margin-bottom: 5%;
   color: black;

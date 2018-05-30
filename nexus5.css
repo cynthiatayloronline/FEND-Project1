@@ -8,6 +8,11 @@ img, embed, object, video {
   height: auto;
   max-width: 100%;
 }
+/* Header */
+.header {
+  padding: 0%;	
+}
+
 /* Logo */
 h2 {
   text-align: center;
@@ -16,7 +21,7 @@ h2 {
   left: 25%;
   width: 40%;
   padding: 5%;
-  margin-bottom: 0%;
+  margin-bottom: 2%;
 }
 
 /* Styling for Title */
@@ -26,7 +31,6 @@ h1 {
   left: 0%;
   font-size: 10vw;
   width: 100%
-  padding: 0%;
   margin-top: 0%;
   margin-bottom: 0%;
   color: black;
@@ -40,7 +44,6 @@ h3 {
   left: 0%;
   width: 100%;
   font-size: 5vw;
-  padding: 0%;
   margin-top: 0%;
   margin-bottom: 0%;
   color: black;
