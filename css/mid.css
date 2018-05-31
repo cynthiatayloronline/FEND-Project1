@@ -1,0 +1,128 @@
+/* Linear Gradient */
+body {
+    background: linear-gradient(rgb(66, 134, 244), rgb(66, 134, 244), purple);
+	min-height: 0%;
+	min-width: 0%;
+	position: relative;
+}
+
+/* Responsive Img Sizing */
+img, embed, object, video {
+  height: auto;
+  max-width: 100%;
+}
+h1, h2 {
+  display: inline;
+}
+/* Header */
+.header {
+  color: black;	
+}
+
+/* Logo */
+h2 {
+  top: 10%;
+  left: 10%;
+  height: auto;
+  width: 5%;
+  margin-bottom: 5%;
+}
+
+/* Styling for Title */
+h1 {
+  text-align: center;
+  left: 10%;
+  font-size: 5vw;
+  width: 100%
+  margin-top: 5%;
+  margin-bottom: 0%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* Styling for Subtitle */
+h3 {
+  text-align: center;
+  top: 6%;
+  left: 20%;
+  width: 100%;
+  font-size: 3vw;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+/* This is the top border. */
+.default {
+  text-align: center;
+  left: 0%;
+  border-bottom: 2px solid black;
+  width: 100%;
+  padding: 0%;
+  margin-top: 0%;
+}
+.article {
+  padding: 0%;
+  color: black;
+}
+
+/* Styling for Hero Image */
+.hero-image {
+  left: 5%;
+  vertical-align: middle;
+  height: auto;
+  width: 85%;
+}
+.hero-text {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 5%;
+  left: 0%;
+  width: 100%;
+  font-size: 4vw;
+  margin-bottom: 10%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Style for Section Class */
+.section {
+  text-align: center;
+}
+/* Feature Work Title */
+.push {
+  left: 30%;
+  margin-top: 5%;
+  padding: 0%;
+}
+/* This is the bottom border. */
+.pull {
+  border-bottom: 2px solid black;
+  width: 100%;
+  left: 0%;
+  margin-top: 0%;
+  margin-bottom: 10%;
+}
+/* Featured Projects */
+.features {
+  margin-left: 0%;
+  margin-top: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.features > div {
+  width: 100%;
+  color: black;
+  font-size: 3vw;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* link color */
+a {
+  color: black;
+}
+.footer {
+  text-align: center;
+  top: 99%;
+  left: 0%;
+  margin-top: 10%;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
